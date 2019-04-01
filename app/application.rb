@@ -27,6 +27,7 @@ class Application
         if item == add_item
           @@cart << item
         end
+      end
     else
       resp.write "Path Not Found"
     end
